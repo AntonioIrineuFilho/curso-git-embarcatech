@@ -12,7 +12,7 @@ git remote add origin https://github.com/AntonioIrineuFilho/curso-git-embarcatec
 
 git add nome-matricula.txt
 
-git commit -m "primeiro comando"
+git commit -m "primeiro commit"
 
 git push --set-upstream origin main
 
@@ -22,4 +22,4 @@ git add comandos-utilizados-tarefa-01.txt
 
 git commit -m "segundo commit"
 
-git push
+git push origin main
