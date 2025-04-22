@@ -1,0 +1,25 @@
+mkdir curso-git-embarcatech
+
+git init -b main
+
+git config user.name 'Antônio Irineu Filho'
+
+git config user.email 'antonioirineu92@gmail.com'
+
+touch nome-matricula.txt
+
+git remote add origin https://github.com/AntonioIrineuFilho/curso-git-embarcatech.git
+
+git add nome-matricula.txt
+
+git commit -m "primeiro comando"
+
+git push --set-upstream origin main
+
+touch comandos-utilizados-tarefa-01.txt
+
+git add comandos-utilizados-tarefa-01.txt
+
+git commit -m "segundo commit"
+
+git push
